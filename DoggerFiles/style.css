@@ -3,24 +3,48 @@ body {
   font-weight: 500;
 }
 
+.imgbox {
+  overflow: hidden;
+}
 .imgbox img {
   width: 100%;
 }
 
 #carefor {
-  padding: 40px 0;
+  padding: 80px 0 50px;
+}
+#carefor .textbox {
+  padding: 0;
+  text-align: center;
 }
 #carefor .textbox h1 {
-  font-size: 60px;
+  font-size: 30px;
   font-weight: 700;
+  line-height: 1.2;
   margin: 0 0 10px;
 }
 #carefor .textbox h4 {
-  color: #a8a8a8;
-  font-size: 24px;
+  font-size: 20px;
+  line-height: 1.2;
+  margin-bottom: 20px;
 }
-#carefor .imgbox img {
-  width: 500px;
+#carefor .imgbox {
+  width: 250px;
+}
+@media screen and (min-width: 768px) {
+  #carefor .textbox {
+    padding: 0 20px;
+    text-align: start;
+  }
+  #carefor .textbox h1 {
+    font-size: 65px;
+  }
+  #carefor .textbox h4 {
+    font-size: 27px;
+  }
+  #carefor .imgbox {
+    width: 350px;
+  }
 }
 
 #welcome {
@@ -275,15 +299,15 @@ body {
 #dogger .box .textbox h2 {
   font-size: 22px;
 }
-#dogger .box .textbox h4 {
+#dogger .box .textbox h2 h4 {
   font-size: 18px;
   color: #aba8a8;
 }
-#dogger .box .textbox p {
+#dogger .box .textbox h2 p {
   font-size: 18px;
   color: #8f8686;
 }
-#dogger .box .textbox p, #dogger .box .textbox h4 {
+#dogger .box .textbox h2 p, #dogger .box .textbox h2 h4 {
   margin: 20px 0 0;
 }
 #dogger .wid {
