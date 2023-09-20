@@ -87,11 +87,8 @@ body {
 #aboutus {
   padding: 40px 0;
 }
-#aboutus .textbox {
-  padding: 0 100px;
-}
 #aboutus .textbox h1 {
-  font-size: 35px;
+  font-size: 40px;
   font-weight: 700;
 }
 #aboutus .textbox h3, #aboutus .textbox p {
