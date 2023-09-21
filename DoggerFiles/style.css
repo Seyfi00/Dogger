@@ -21,7 +21,7 @@ body {
   font-size: 30px;
   font-weight: 700;
   line-height: 1.2;
-  margin: 0 0 10px;
+  margin-bottom: 10px;
 }
 #carefor .textbox h4 {
   font-size: 20px;
@@ -87,36 +87,55 @@ body {
 #aboutus {
   padding: 40px 0;
 }
+#aboutus .textbox {
+  padding-bottom: 30px;
+}
 #aboutus .textbox h1 {
-  font-size: 40px;
+  font-size: 30px;
   font-weight: 700;
 }
 #aboutus .textbox h3, #aboutus .textbox p {
   color: #a8a8a8;
-  font-size: 20px;
-  font-weight: 100;
-  margin: 20px 0 0;
+  font-size: 18px;
+  margin-top: 20px;
   line-height: 1.6;
 }
 #aboutus .textbox p {
   color: #949494;
-  font-size: 18px;
+  font-size: 15px;
   line-height: 1.4;
 }
 #aboutus .textbox li {
   display: flex;
-  padding: 20px 0 0 0;
+  padding-top: 20px;
 }
-#aboutus .textbox .icon {
-  padding: 0 15px 0 0;
+#aboutus .textbox li .icon {
+  padding-right: 15px;
   color: #5e5656;
 }
-#aboutus .textbox h4 {
+#aboutus .textbox li h4 {
   font-size: 20px;
   color: #949494;
 }
 #aboutus .imgbox {
-  width: 300px;
+  width: 250px;
+}
+@media screen and (min-width: 768px) {
+  #aboutus .textbox {
+    padding: 0 20px 0 0;
+  }
+  #aboutus .textbox h1 {
+    font-size: 40px;
+  }
+  #aboutus .textbox h3 {
+    font-size: 20px;
+  }
+  #aboutus .textbox p {
+    font-size: 18px;
+  }
+  #aboutus .imgbox {
+    width: 350px;
+  }
 }
 
 #trainers {
