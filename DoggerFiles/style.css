@@ -243,21 +243,18 @@ body {
 #questions {
   pading: 40px 0;
 }
-#questions .wid {
-  width: 580px;
+#questions .bigicon i {
+  font-size: 28px;
 }
-#questions .wid h1 {
+#questions h1 {
   font-weight: 700;
-  font-size: 36px;
-  margin: 10px 0;
+  font-size: 30px;
+  margin: 20px 0 10px;
 }
-#questions .wid h3 {
-  font-size: 20px;
+#questions h3 {
+  font-size: 18px;
   margin: 0 0 40px;
   line-height: 1.4;
-}
-#questions .wid .bigicon i {
-  font-size: 30px;
 }
 #questions .textbox {
   padding: 0 40px;
@@ -291,6 +288,20 @@ body {
 }
 #questions .icon i {
   font-size: 22px;
+}
+#questions .imgbox {
+  width: 550px;
+}
+@media screen and (min-width: 768px) {
+  #questions .bigicon i {
+    font-size: 32px;
+  }
+  #questions h1 {
+    font-size: 36px;
+  }
+  #questions h3 {
+    font-size: 20px;
+  }
 }
 
 #dogger {
