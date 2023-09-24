@@ -241,67 +241,69 @@ body {
 }
 
 #questions {
-  pading: 40px 0;
+  padding: 50px 0;
+}
+#questions .wid {
+  width: 600px;
 }
 #questions .bigicon i {
   font-size: 28px;
+  color: #a2c0be;
 }
 #questions h1 {
   font-weight: 700;
   font-size: 30px;
-  margin: 20px 0 10px;
+  margin: 20px 0 20px;
+  line-height: 1.5;
 }
 #questions h3 {
-  font-size: 18px;
+  font-size: 20px;
   margin: 0 0 40px;
   line-height: 1.4;
+  color: #968f8f;
 }
 #questions .textbox {
   padding: 0 40px;
+  margin-bottom: 30px;
 }
-#questions .textbox h2, #questions .textbox h4 {
-  font-size: 25px;
-  margin: 0 0 0 10px;
-  color: #717171;
+#questions .textbox h2 {
+  font-size: 24px;
+  margin-left: 10px;
 }
 #questions .textbox .minibox {
-  margin: 20px 0 0 0;
+  margin-top: 20px;
 }
-#questions .textbox .minibox h2 {
-  margin: 0 0 0 10px;
-}
-#questions .textbox h4 {
-  font-size: 18px;
+#questions .textbox .minibox .icon i {
+  color: #cccccd;
+  font-size: 22px;
 }
 #questions .textbox p {
   font-size: 20px;
-  margin: 30px 0 0;
-  color: #949494;
+  margin: 30px 0 0 30px;
+  color: #968f8f;
+  line-height: 1.5;
 }
-#questions .textbox li {
+#questions .textbox ul li {
   margin: 30px 0 0;
   display: flex;
-  flex-direction: row;
 }
-#questions .icon {
-  color: #d4cece;
-}
-#questions .icon i {
+#questions .textbox ul li .icon i {
   font-size: 22px;
+  color: #cccccd;
 }
-#questions .imgbox {
-  width: 550px;
-}
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 992px) {
   #questions .bigicon i {
     font-size: 32px;
   }
   #questions h1 {
     font-size: 36px;
   }
-  #questions h3 {
-    font-size: 20px;
+  #questions .textbox {
+    margin-bottom: 0px;
   }
+}
+#questions h1:hover, #questions h2:hover, #questions h3:hover, #questions p:hover {
+  cursor: auto;
 }
 
 #dogger {

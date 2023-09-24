@@ -1,49 +1,60 @@
 #questions
-    pading: 40px 0
+    padding: 50px 0
+    .wid
+        width: 600px
     .bigicon
         i
             font-size: 28px
+            color: #a2c0be
     h1
         font-weight: 700
         font-size: 30px
-        margin: 20px 0 10px
+        margin: 20px 0 20px
+        line-height: 1.5
     h3
-        font-size: 18px
+        font-size: 20px
         margin: 0 0 40px
         line-height: 1.4
+        color: #968f8f
     .textbox
         padding: 0 40px
-        h2, h4
-            font-size: 25px
-            margin: 0 0 0 10px
-            color: #717171
+        margin-bottom: 30px
+        h2
+            font-size: 24px
+            margin-left: 10px
+
         .minibox
-            margin: 20px 0 0 0
-            h2
-                margin: 0 0 0 10px
-        h4
-            font-size: 18px
+            margin-top: 20px
+            .icon
+                i
+                    color: #cccccd
+                    font-size: 22px
         p
             font-size: 20px
-            margin: 30px 0 0
-            color: #949494
-        li
-            margin: 30px 0 0
-            display: flex
-            flex-direction: row
-    .icon
-        color: #d4cece
-        i
-            font-size: 22px
-    .imgbox
-        width: 550px
-    @media screen and ( min-width: 768px )
+            margin: 30px 0 0 30px
+            color: #968f8f
+            line-height: 1.5
+        ul
+            li
+                margin: 30px 0 0
+                display: flex
+                .icon
+                    i
+                        font-size: 22px
+                        color: #cccccd
+    // .imgbox
+        // width: 550px
+    @media screen and ( min-width: 992px )
         .bigicon
             i
                 font-size: 32px
         h1
             font-size: 36px
-        h3
-            font-size: 20px
+        .textbox
+            margin-bottom: 0px
+    h1, h2, h3, p
+        &:hover
+            cursor: auto
+        
         
         
