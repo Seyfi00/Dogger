@@ -263,7 +263,7 @@ body {
 }
 #questions h3 {
   font-size: 20px;
-  margin: 0 0 40px;
+  margin-bottom: 40px;
   line-height: 1.4;
   color: #968f8f;
 }
@@ -314,38 +314,57 @@ body {
 #dogger {
   padding: 40px 0;
 }
+#dogger .wid {
+  width: 600px;
+}
 #dogger h1 {
-  font-size: 35px;
+  font-size: 30px;
   font-weight: 700;
 }
 #dogger h3 {
-  color: #686565;
+  color: #968f8f;
   font-size: 20px;
-  margin: 30px 0 60px;
+  margin: 20px 0 60px;
+  line-height: 1.4;
 }
 #dogger .box {
   display: flex;
-  padding: 10px 0 0;
+  flex-direction: column;
 }
 #dogger .box .textbox {
-  margin: 0 0 0 20px;
+  margin-left: 20px;
 }
 #dogger .box .textbox h2 {
   font-size: 22px;
+  line-height: 1.2;
+  color: #000000;
 }
-#dogger .box .textbox h2 h4 {
+#dogger .box .textbox h4 {
+  color: #8e8686;
   font-size: 18px;
-  color: #aba8a8;
 }
-#dogger .box .textbox h2 p {
+#dogger .box .textbox p {
+  color: #948787;
+  line-height: 1.5;
   font-size: 18px;
-  color: #8f8686;
 }
-#dogger .box .textbox h2 p, #dogger .box .textbox h2 h4 {
-  margin: 20px 0 0;
+#dogger .box .textbox h5 {
+  font-size: 18px;
+  color: #799a73;
+}
+#dogger .box .textbox p, #dogger .box .textbox h4, #dogger .box .textbox h5 {
+  margin-top: 15px;
 }
 #dogger .wid {
   width: 580px;
+}
+@media screen and (min-width: 768px) {
+  #dogger h1 {
+    font-size: 36px;
+  }
+  #dogger .box {
+    flex-direction: row;
+  }
 }
 
 #services {
