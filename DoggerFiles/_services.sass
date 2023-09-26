@@ -1,11 +1,5 @@
 #services
     padding: 40px 0
-    .wid
-        width: 580px
-    .bigicon
-        i
-            font-size: 28px
-            color: #a2c0be
     h1
         font-weight: 700
         font-size: 30px
@@ -15,21 +9,36 @@
         color: #968f8f
         line-height: 1.4
     .textbox
-        padding: 30px 50px
+        padding: 30px
         h2
             font-size: 25px
-            color: #757575
-            margin: 20px 0 0
+            color: #000000
+            margin-top: 20px
         p
-            margin: 30px 0 0
+            margin-top: 30px
+            font-size: 18px
+            color: #968f8f
+            line-height: 1.4
         .icon
             i
                 font-size: 60px
-    
-    @media screen and ( min-width: 768px )
+    .wid
+        width: 600px
+        padding: 0px
         .bigicon
             i
-                font-size: 32px
-        h1
-            font-size: 36px
+                font-size: 28px
+                color: #a2c0be
+
+    
+    @media screen and ( min-width: 768px )
+        .wid
+            .bigicon
+                i
+                    font-size: 32px
+            h1
+                font-size: 36px
+    h1, h2, h3, p
+        &:hover
+            cursor: auto
         

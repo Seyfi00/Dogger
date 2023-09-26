@@ -283,7 +283,7 @@ body {
   font-size: 22px;
 }
 #questions .textbox p {
-  font-size: 20px;
+  font-size: 18px;
   margin: 30px 0 0 30px;
   color: #968f8f;
   line-height: 1.5;
@@ -357,16 +357,13 @@ body {
 #dogger .box .textbox h5 {
   font-size: 18px;
   color: #799a73;
-  margin-bottom: 30px;
+  margin-bottom: 40px;
 }
 #dogger .box .textbox h5:hover {
   color: #556b51;
 }
 #dogger .box .textbox p, #dogger .box .textbox h4, #dogger .box .textbox h5 {
   margin-top: 15px;
-}
-#dogger .wid {
-  width: 580px;
 }
 @media screen and (min-width: 768px) {
   #dogger .bigicon i {
@@ -397,13 +394,6 @@ body {
 #services {
   padding: 40px 0;
 }
-#services .wid {
-  width: 580px;
-}
-#services .bigicon i {
-  font-size: 28px;
-  color: #a2c0be;
-}
 #services h1 {
   font-weight: 700;
   font-size: 30px;
@@ -415,24 +405,38 @@ body {
   line-height: 1.4;
 }
 #services .textbox {
-  padding: 30px 50px;
+  padding: 30px;
 }
 #services .textbox h2 {
   font-size: 25px;
-  color: #757575;
-  margin: 20px 0 0;
+  color: #000000;
+  margin-top: 20px;
 }
 #services .textbox p {
-  margin: 30px 0 0;
+  margin-top: 30px;
+  font-size: 18px;
+  color: #968f8f;
+  line-height: 1.4;
 }
 #services .textbox .icon i {
   font-size: 60px;
 }
+#services .wid {
+  width: 600px;
+  padding: 0px;
+}
+#services .wid .bigicon i {
+  font-size: 28px;
+  color: #a2c0be;
+}
 @media screen and (min-width: 768px) {
-  #services .bigicon i {
+  #services .wid .bigicon i {
     font-size: 32px;
   }
-  #services h1 {
+  #services .wid h1 {
     font-size: 36px;
   }
+}
+#services h1:hover, #services h2:hover, #services h3:hover, #services p:hover {
+  cursor: auto;
 }/*# sourceMappingURL=style.css.map */
