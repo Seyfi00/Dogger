@@ -331,11 +331,12 @@ body {
   display: flex;
   flex-direction: column;
 }
-#dogger .box .textbox {
-  margin-left: 20px;
+#dogger .box .imgbox {
+  width: 400px;
+  margin-bottom: 30px;
 }
 #dogger .box .textbox h2 {
-  font-size: 22px;
+  font-size: 20px;
   line-height: 1.2;
   color: #000000;
 }
@@ -351,6 +352,10 @@ body {
 #dogger .box .textbox h5 {
   font-size: 18px;
   color: #799a73;
+  margin-bottom: 30px;
+}
+#dogger .box .textbox h5:hover {
+  color: #556b51;
 }
 #dogger .box .textbox p, #dogger .box .textbox h4, #dogger .box .textbox h5 {
   margin-top: 15px;
@@ -362,9 +367,23 @@ body {
   #dogger h1 {
     font-size: 36px;
   }
+  #dogger .box .imgbox {
+    width: 300px;
+  }
+  #dogger .box .textbox {
+    margin-left: 0px;
+  }
+}
+@media screen and (min-width: 992px) {
   #dogger .box {
     flex-direction: row;
   }
+  #dogger .box .textbox {
+    margin-left: 20px;
+  }
+}
+#dogger h1:hover, #dogger h2:hover, #dogger h3:hover, #dogger h4:hover, #dogger h5:hover, #dogger p:hover {
+  cursor: auto;
 }
 
 #services {
