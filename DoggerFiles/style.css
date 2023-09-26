@@ -317,7 +317,12 @@ body {
 #dogger .wid {
   width: 600px;
 }
+#dogger .bigicon i {
+  font-size: 28px;
+  color: #a2c0be;
+}
 #dogger h1 {
+  margin-top: 20px;
   font-size: 30px;
   font-weight: 700;
 }
@@ -364,6 +369,9 @@ body {
   width: 580px;
 }
 @media screen and (min-width: 768px) {
+  #dogger .bigicon i {
+    font-size: 32px;
+  }
   #dogger h1 {
     font-size: 36px;
   }
@@ -392,15 +400,19 @@ body {
 #services .wid {
   width: 580px;
 }
+#services .bigicon i {
+  font-size: 28px;
+  color: #a2c0be;
+}
 #services h1 {
   font-weight: 700;
-  font-size: 35px;
-  padding: 50px 0 0;
+  font-size: 30px;
+  margin: 20px 0 20px;
 }
 #services h3 {
   font-size: 20px;
-  color: #c6c6c6;
-  margin: 30px 0 0;
+  color: #968f8f;
+  line-height: 1.4;
 }
 #services .textbox {
   padding: 30px 50px;
@@ -410,9 +422,17 @@ body {
   color: #757575;
   margin: 20px 0 0;
 }
-#services .textbox h3 {
+#services .textbox p {
   margin: 30px 0 0;
 }
 #services .textbox .icon i {
   font-size: 60px;
+}
+@media screen and (min-width: 768px) {
+  #services .bigicon i {
+    font-size: 32px;
+  }
+  #services h1 {
+    font-size: 36px;
+  }
 }/*# sourceMappingURL=style.css.map */
