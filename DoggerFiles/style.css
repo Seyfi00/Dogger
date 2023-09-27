@@ -145,50 +145,83 @@ body {
 
 #trainers {
   padding: 40px 0;
+  background-color: #a2c0be;
+  position: relative;
 }
-#trainers h1 {
+#trainers .wid {
+  width: 600px;
+  padding-bottom: 30px;
+}
+#trainers .wid .bigicon i {
+  font-size: 28px;
+  color: #ffffff;
+}
+#trainers .wid h1 {
   font-weight: 700;
-  font-size: 38px;
+  font-size: 30px;
+  margin-top: 20px;
 }
-#trainers h3, #trainers h4 {
-  font-weight: 300;
+#trainers .wid h3 {
   font-size: 20px;
-  color: #a8a8a8;
+  color: #4b4a4a;
   margin: 20px 0;
   line-height: 1.4;
 }
 #trainers .box {
   margin: 0 5px;
+  padding-bottom: 30px;
 }
 #trainers .box .textbox {
   padding: 15px;
 }
 #trainers .box .textbox h2 {
-  font-weight: 300;
   font-size: 25px;
-  padding: 20px 0 0;
+  margin-top: 20px;
+}
+#trainers .box .textbox h4 {
+  color: #4b4a4a;
+  font-size: 18px;
+  margin: 20px 0;
+  line-height: 1.4;
 }
 #trainers .box .textbox ul {
   display: flex;
-  flex-direction: row;
 }
 #trainers .box .textbox ul li {
-  margin: 0 10px;
-  background-color: #d4cece;
+  margin-right: 10px;
+  background-color: #ffffff;
   border-radius: 50%;
-  padding: 20px;
+  padding: 15px;
   width: 10px;
   height: 10px;
+  transition: 0.5s;
+}
+#trainers .box .textbox ul li:hover {
+  transform: translate(0, -10px);
+  cursor: pointer;
 }
 #trainers .box .textbox ul li .icon {
-  margin: -7px;
+  margin: -5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-#trainers .box .textbox .wid {
-  width: 580px;
-  padding: 0;
+#trainers .box .textbox ul li .icon i {
+  font-size: 12px;
 }
-#trainers .box .textbox .imgbox img {
-  width: 350px;
+#trainers .box .textbox ul li .icon i:hover {
+  cursor: pointer;
+}
+#trainers .box .imgbox {
+  opacity: 0.5;
+}
+@media screen and (min-width: 768px) {
+  #trainers .wid .bigicon i {
+    font-size: 32px;
+  }
+  #trainers .wid h1 {
+    font-size: 36px;
+  }
 }
 
 #pricing {
@@ -286,7 +319,7 @@ body {
 #questions h1 {
   font-weight: 700;
   font-size: 30px;
-  margin: 20px 0 20px;
+  margin: 20px 0;
   line-height: 1.5;
 }
 #questions h3 {
@@ -384,11 +417,12 @@ body {
 }
 #dogger .box .textbox h5 {
   font-size: 18px;
-  color: #799a73;
+  color: #5f625e;
   margin-bottom: 40px;
 }
 #dogger .box .textbox h5:hover {
-  color: #556b51;
+  color: #7292a4;
+  cursor: pointer;
 }
 #dogger .box .textbox p, #dogger .box .textbox h4, #dogger .box .textbox h5 {
   margin-top: 15px;
@@ -415,7 +449,7 @@ body {
     margin-left: 20px;
   }
 }
-#dogger h1:hover, #dogger h2:hover, #dogger h3:hover, #dogger h4:hover, #dogger h5:hover, #dogger p:hover {
+#dogger h1:hover, #dogger h2:hover, #dogger h3:hover, #dogger h4:hover, #dogger p:hover {
   cursor: auto;
 }
 
