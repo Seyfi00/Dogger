@@ -2,6 +2,7 @@
     padding: 40px 0
     .textbox
         width: 600px
+        padding-bottom: 30px
         .bigicon
             i
                 font-size: 28px
@@ -9,17 +10,17 @@
         h1
             font-weight: 700
             font-size: 30px
-            margin-top: 20px 
+            margin-top: 20px
         h3
             font-size: 20px
             color: #968f8f
             line-height: 1.4
-            margin: 20px 0 30px
+            margin: 20px 0
     .box
         width: 350px
         color: #ffffff
         background-color: #a2c0be
-        padding: 50px 30px 
+        padding: 50px 30px
         text-align: center
         h2
             font-size: 25px
@@ -29,10 +30,14 @@
         li
             margin-top: 30px
             display: flex
-            justify-content: center  
+            justify-content: center
             p
                 font-size: 18px
-                margin-left: 10px  
+                margin-left: 10px
+        .line
+            p
+                text-decoration: line-through
+                opacity: 0.5
         .btn
             padding: 10px 35px
             margin: 30px 0 0
@@ -40,20 +45,21 @@
             background-color: #5a6268
             h5
                 color: #ffffff
-            &:hover
-                background-color: #5b5e61
-    .PREMIUM
-            background-color: #343a40
-            .btn
-                background-color: #a2c0be
                 &:hover
-                    background-color: #000000
+                    cursor: pointer
+            &:hover
+                background-color: #000000
+    .PREMIUM
+        background-color: #343a40
+        .btn
+            background-color: #a2c0be
     @media screen and ( min-width: 768px )
-        .bigicon
-            i
-                font-size: 32px
-        h1
-            font-size: 36px
-        
-                
-    
+        .textbox
+            .bigicon
+                i
+                    font-size: 32px
+            h1
+                font-size: 36px
+    h1, h2, h3, h4, p
+        &:hover
+            cursor: auto

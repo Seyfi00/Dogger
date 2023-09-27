@@ -196,6 +196,7 @@ body {
 }
 #pricing .textbox {
   width: 600px;
+  padding-bottom: 30px;
 }
 #pricing .textbox .bigicon i {
   font-size: 28px;
@@ -210,7 +211,7 @@ body {
   font-size: 20px;
   color: #968f8f;
   line-height: 1.4;
-  margin: 20px 0 30px;
+  margin: 20px 0;
 }
 #pricing .box {
   width: 350px;
@@ -235,6 +236,10 @@ body {
   font-size: 18px;
   margin-left: 10px;
 }
+#pricing .box .line p {
+  text-decoration: line-through;
+  opacity: 0.5;
+}
 #pricing .box .btn {
   padding: 10px 35px;
   margin: 30px 0 0;
@@ -244,8 +249,11 @@ body {
 #pricing .box .btn h5 {
   color: #ffffff;
 }
+#pricing .box .btn h5:hover {
+  cursor: pointer;
+}
 #pricing .box .btn:hover {
-  background-color: #5b5e61;
+  background-color: #000000;
 }
 #pricing .PREMIUM {
   background-color: #343a40;
@@ -253,16 +261,16 @@ body {
 #pricing .PREMIUM .btn {
   background-color: #a2c0be;
 }
-#pricing .PREMIUM .btn:hover {
-  background-color: #000000;
-}
 @media screen and (min-width: 768px) {
-  #pricing .bigicon i {
+  #pricing .textbox .bigicon i {
     font-size: 32px;
   }
-  #pricing h1 {
+  #pricing .textbox h1 {
     font-size: 36px;
   }
+}
+#pricing h1:hover, #pricing h2:hover, #pricing h3:hover, #pricing h4:hover, #pricing p:hover {
+  cursor: auto;
 }
 
 #questions {
