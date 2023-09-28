@@ -12,6 +12,7 @@ body {
 
 #carefor {
   padding: 80px 0 50px;
+  background-color: yellow;
 }
 #carefor .textbox {
   padding: 0;
@@ -48,6 +49,7 @@ body {
 }
 
 #welcome {
+  background-color: red;
   padding: 40px 0;
 }
 #welcome .wid {
@@ -71,18 +73,19 @@ body {
 }
 #welcome .textbox h2 {
   font-size: 32px;
+  margin: 40px 0 20px;
 }
 #welcome .textbox p {
   font-size: 18px;
   color: #968f8f;
   line-height: 1.5;
-  margin: 20px 0;
+  margin-bottom: 20px;
 }
 #welcome .textbox .btn {
   padding: 10px 30px;
   background-color: #a2c0be;
-  color: #ffffff;
   border-radius: 20px;
+  margin-bottom: 30px;
 }
 #welcome .textbox .btn:hover {
   cursor: pointer;
@@ -90,6 +93,7 @@ body {
 }
 #welcome .textbox .btn h4 {
   font-size: 18px;
+  color: #ffffff;
 }
 #welcome .textbox .btn h4:hover {
   cursor: pointer;
@@ -113,6 +117,7 @@ body {
 
 #aboutus {
   padding: 40px 0;
+  background-color: purple;
 }
 #aboutus .textbox {
   padding-bottom: 40px;
@@ -252,6 +257,7 @@ body {
 }
 
 #pricing {
+  background-color: orange;
   padding: 40px 0;
 }
 #pricing .textbox {
@@ -334,6 +340,7 @@ body {
 }
 
 #questions {
+  background-color: gray;
   padding: 50px 0;
 }
 #questions .wid {
@@ -401,6 +408,7 @@ body {
 
 #dogger {
   padding: 40px 0;
+  background-color: blue;
 }
 #dogger .wid {
   width: 600px;
@@ -481,6 +489,7 @@ body {
 }
 
 #services {
+  background-color: #000000;
   padding: 40px 0;
 }
 #services h1 {
