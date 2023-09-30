@@ -10,9 +10,16 @@ body {
   width: 100%;
 }
 
+section {
+  padding: 80px 0;
+}
+section h1:hover, section h2:hover, section h3:hover, section h4:hover, section p:hover {
+  cursor: auto;
+}
+
 #carefor {
-  padding: 80px 0 50px;
-  background-color: yellow;
+  padding: 80px 0;
+  background-color: #f8f9fa;
 }
 #carefor .textbox {
   padding: 0;
@@ -25,6 +32,7 @@ body {
   margin-bottom: 10px;
 }
 #carefor .textbox h4 {
+  color: #979797;
   font-size: 20px;
   line-height: 1.2;
   margin-bottom: 20px;
@@ -47,10 +55,12 @@ body {
     width: 350px;
   }
 }
+#carefor h1:hover, #carefor h4:hover {
+  cursor: auto;
+}
 
 #welcome {
-  background-color: red;
-  padding: 40px 0;
+  padding: 80px 0;
 }
 #welcome .wid {
   width: 600px;
@@ -114,10 +124,12 @@ body {
     font-size: 36px;
   }
 }
+#welcome h1:hover, #welcome h2:hover, #welcome h3:hover, #welcome p:hover {
+  cursor: auto;
+}
 
 #aboutus {
-  padding: 40px 0;
-  background-color: purple;
+  padding: 80px 0;
 }
 #aboutus .textbox {
   padding-bottom: 40px;
@@ -154,6 +166,9 @@ body {
   font-size: 20px;
   color: #949494;
 }
+#aboutus .imgbox {
+  width: 250px;
+}
 @media screen and (min-width: 768px) {
   #aboutus .textbox {
     padding: 20px 50px 0 0;
@@ -168,7 +183,7 @@ body {
     font-size: 20px;
   }
   #aboutus .imgbox {
-    width: 450px;
+    width: 400px;
   }
 }
 #aboutus h1:hover, #aboutus h3:hover, #aboutus h4:hover, #aboutus p:hover {
@@ -255,9 +270,11 @@ body {
     font-size: 36px;
   }
 }
+#trainers h1:hover, #trainers h2:hover, #trainers h3:hover, #trainers h4:hover {
+  cursor: auto;
+}
 
 #pricing {
-  background-color: orange;
   padding: 40px 0;
 }
 #pricing .textbox {
@@ -340,7 +357,6 @@ body {
 }
 
 #questions {
-  background-color: gray;
   padding: 50px 0;
 }
 #questions .wid {
@@ -408,7 +424,6 @@ body {
 
 #dogger {
   padding: 40px 0;
-  background-color: blue;
 }
 #dogger .wid {
   width: 600px;
@@ -433,7 +448,7 @@ body {
   flex-direction: column;
 }
 #dogger .box .imgbox {
-  width: 400px;
+  width: 200px;
   margin-bottom: 30px;
 }
 #dogger .box .textbox h2 {
@@ -489,7 +504,6 @@ body {
 }
 
 #services {
-  background-color: #000000;
   padding: 40px 0;
 }
 #services h1 {
