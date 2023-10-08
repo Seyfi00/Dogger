@@ -35,10 +35,10 @@ section h1:hover, section h2:hover, section h3:hover, section h4:hover, section 
   color: #979797;
   font-size: 20px;
   line-height: 1.2;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 #carefor .imgbox {
-  width: 250px;
+  width: 280px;
 }
 @media screen and (min-width: 768px) {
   #carefor .textbox {
@@ -52,7 +52,7 @@ section h1:hover, section h2:hover, section h3:hover, section h4:hover, section 
     font-size: 27px;
   }
   #carefor .imgbox {
-    width: 350px;
+    width: 420px;
   }
 }
 #carefor h1:hover, #carefor h4:hover {
@@ -196,7 +196,7 @@ section h1:hover, section h2:hover, section h3:hover, section h4:hover, section 
   color: #949494;
 }
 #aboutus .imgbox {
-  width: 300px;
+  width: 280px;
   margin-left: 7px;
 }
 @media screen and (min-width: 576px) {
@@ -218,8 +218,13 @@ section h1:hover, section h2:hover, section h3:hover, section h4:hover, section 
     font-size: 20px;
   }
   #aboutus .imgbox {
-    width: 400px;
+    width: 425px;
     margin-left: 0px;
+  }
+}
+@media screen and (min-width: 992px) {
+  #aboutus .imgbox {
+    width: 460px;
   }
 }
 #aboutus h1:hover, #aboutus h3:hover, #aboutus h4:hover, #aboutus p:hover {
