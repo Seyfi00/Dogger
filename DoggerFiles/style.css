@@ -62,6 +62,19 @@ section h1:hover, section h2:hover, section h3:hover, section h4:hover, section 
 #welcome {
   padding: 80px 0;
 }
+#welcome .imgbox {
+  max-width: 700px;
+}
+#welcome .right .col-right {
+  order: 1;
+}
+#welcome .right .col-right .txtright {
+  text-align: left;
+}
+#welcome .txtright, #welcome .txtleft {
+  max-width: 700px;
+  padding: 30px 20px 30px 7px;
+}
 #welcome .wid {
   width: 600px;
 }
@@ -78,24 +91,23 @@ section h1:hover, section h2:hover, section h3:hover, section h4:hover, section 
 #welcome .wid h3 {
   color: #968f8f;
   font-size: 20px;
-  margin-bottom: 40px;
+  margin-bottom: 50px;
   line-height: 1.4;
 }
 #welcome .textbox h2 {
   font-size: 32px;
-  margin: 40px 0 20px;
+  margin-bottom: 20px;
 }
 #welcome .textbox p {
   font-size: 18px;
   color: #968f8f;
-  line-height: 1.5;
+  line-height: 1.6;
   margin-bottom: 20px;
 }
 #welcome .textbox .btn {
   padding: 10px 30px;
   background-color: #a2c0be;
   border-radius: 20px;
-  margin-bottom: 30px;
 }
 #welcome .textbox .btn:hover {
   cursor: pointer;
@@ -108,14 +120,6 @@ section h1:hover, section h2:hover, section h3:hover, section h4:hover, section 
 #welcome .textbox .btn h4:hover {
   cursor: pointer;
 }
-#welcome .txtright {
-  text-align: right;
-  padding-right: 50px;
-}
-#welcome .txtleft {
-  text-align: left;
-  padding-left: 50px;
-}
 @media screen and (min-width: 768px) {
   #welcome .textbox .bigicon i {
     font-size: 32px;
@@ -124,15 +128,40 @@ section h1:hover, section h2:hover, section h3:hover, section h4:hover, section 
     font-size: 36px;
   }
 }
+@media screen and (min-width: 992px) {
+  #welcome .right .col-right {
+    order: -1;
+  }
+  #welcome .right .col-right .txtright {
+    text-align: right;
+  }
+  #welcome .txtright {
+    padding: 30px 50px 30px 15px;
+  }
+  #welcome .txtleft {
+    padding: 30px 15px 30px 50px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  #welcome .txtright {
+    padding: 30px 65px 30px 45px;
+  }
+  #welcome .txtleft {
+    padding: 30px 45px 30px 65px;
+  }
+  #welcome p {
+    font-size: 19px;
+  }
+}
 #welcome h1:hover, #welcome h2:hover, #welcome h3:hover, #welcome p:hover {
   cursor: auto;
 }
 
 #aboutus {
-  padding: 80px 0;
+  padding: 50px 0 80px;
 }
 #aboutus .textbox {
-  padding-bottom: 40px;
+  padding: 0 10px 40px 7px;
 }
 #aboutus .textbox .bigicon i {
   font-size: 28px;
@@ -167,7 +196,13 @@ section h1:hover, section h2:hover, section h3:hover, section h4:hover, section 
   color: #949494;
 }
 #aboutus .imgbox {
-  width: 250px;
+  width: 300px;
+  margin-left: 7px;
+}
+@media screen and (min-width: 576px) {
+  #aboutus .imgbox {
+    width: 350px;
+  }
 }
 @media screen and (min-width: 768px) {
   #aboutus .textbox {
@@ -184,6 +219,7 @@ section h1:hover, section h2:hover, section h3:hover, section h4:hover, section 
   }
   #aboutus .imgbox {
     width: 400px;
+    margin-left: 0px;
   }
 }
 #aboutus h1:hover, #aboutus h3:hover, #aboutus h4:hover, #aboutus p:hover {
