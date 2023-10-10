@@ -420,7 +420,7 @@ section h1:hover, section h2:hover, section h3:hover, section h4:hover, section 
   color: #968f8f;
 }
 #questions .textbox {
-  padding: 0 40px;
+  padding: 0 40px 0 7px;
   margin-bottom: 30px;
 }
 #questions .textbox h2 {
@@ -448,6 +448,9 @@ section h1:hover, section h2:hover, section h3:hover, section h4:hover, section 
   font-size: 22px;
   color: #cccccd;
 }
+#questions .imgbox {
+  margin-left: 7px;
+}
 @media screen and (min-width: 992px) {
   #questions .bigicon i {
     font-size: 32px;
@@ -455,8 +458,15 @@ section h1:hover, section h2:hover, section h3:hover, section h4:hover, section 
   #questions h1 {
     font-size: 36px;
   }
+  #questions h3 {
+    margin-bottom: 50px;
+  }
   #questions .textbox {
     margin-bottom: 0px;
+    padding: 0 40px 0 0;
+  }
+  #questions .imgbox {
+    margin-left: 0px;
   }
 }
 #questions h1:hover, #questions h2:hover, #questions h3:hover, #questions p:hover {
@@ -556,6 +566,7 @@ section h1:hover, section h2:hover, section h3:hover, section h4:hover, section 
   font-size: 20px;
   color: #968f8f;
   line-height: 1.4;
+  margin-bottom: 25px;
 }
 #services .textbox {
   padding: 30px;
